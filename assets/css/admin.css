@@ -1,0 +1,50 @@
+/* This file contains CSS styles for the admin interface of the plugin. */ 
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #0073aa;
+}
+
+.evento-publico-info {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    gap: 1em;
+    align-items: flex-start;
+}
+
+.evento-publico-info img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+    border-radius: 8px;
+}
+
+.fila-cat {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.fila-cat input,
+.fila-cat select {
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.button {
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #005177;
+}
